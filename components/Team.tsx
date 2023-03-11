@@ -24,9 +24,8 @@ const Team = () => {
               <div className="py-4 px-6 bg-white">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Umut</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam sit amet diam et nulla fermentum varius quis vel
-                  turpis.
+                  Unity and Blockchain Developer. Previously Game Developer at
+                  LootCopter and Advisor at Shopcek
                 </p>
               </div>
             </div>
@@ -43,9 +42,8 @@ const Team = () => {
               <div className="py-4 px-6 bg-white">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Jovi</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam sit amet diam et nulla fermentum varius quis vel
-                  turpis.
+                  Med undergrad turned into web3 developer. Main focus on EVM
+                  chains. Encode - Solidity Bootcamp graduate.
                 </p>
               </div>
             </div>
@@ -62,9 +60,8 @@ const Team = () => {
               <div className="py-4 px-6 bg-white">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Kerim</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam sit amet diam et nulla fermentum varius quis vel
-                  turpis.
+                  Full-stack Dev and Gamer since 6. 2x Founder and Winner of
+                  Accelerator programs and Web3 graduate from Alchemy
                 </p>
               </div>
             </div>
