@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import hero from "../public/img/hero.png";
+import Link from "next/link";
+import { TbArrowUpRight } from "react-icons/tb";
 
 const Hero = () => {
   return (
-    <div className="flex flex-wrap items-center justify-between px-4 py-16">
+    <div className="flex flex-wrap items-center justify-between px-4 h-screen">
       <div className="w-full md:w-1/2 md:pr-8">
         <h1 className="text-4xl font-bold mb-4">
           Community-driven virtual universe.
@@ -16,9 +18,21 @@ const Hero = () => {
             different types of games.
           </p>
         </div>
-        <button className="bg-funcia text-white font-bold py-2 px-4 rounded">
-          Enter to BlockLife
-        </button>
+        <div className="flex items-center space-x-3">
+          <Link
+            href={"https://github.com/salty-node/contracts"}
+            className="flex items-center hover:text-funcia"
+          >
+            <p className="text-xl">Learn More</p>
+            <TbArrowUpRight size={32} />
+          </Link>
+          <Link
+            href={"/"}
+            className="bg-funcia text-white text-xl py-2 px-4 rounded"
+          >
+            Enter to BlockLife
+          </Link>
+        </div>
       </div>
       <div className="w-full md:w-1/2">
         <Image

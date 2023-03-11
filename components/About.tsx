@@ -30,13 +30,6 @@ const About = () => {
           </p>
           <div className="flex items-center space-x-3">
             <Link
-              href={"https://github.com/salty-node/contracts"}
-              className="mt-6 flex items-center hover:text-funcia"
-            >
-              <p className="text-xl">Learn More</p>
-              <TbArrowUpRight size={32} />
-            </Link>
-            <Link
               href={"/"}
               className="mt-6 flex items-center bg-funcia rounded-lg text-white px-8 py-2"
             >
