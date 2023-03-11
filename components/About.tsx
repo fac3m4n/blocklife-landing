@@ -4,28 +4,27 @@ import blockDice from "../public/img/dice_game.png";
 
 const About = () => {
   return (
-    <section className="bg-gray-100 py-10">
+    <section className="py-10">
       <div className="max-w-5xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-center">
         <div className="lg:w-1/2">
           <Image
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg w-full object-cover"
             src={blockDice}
             alt="About Us"
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="lg:w-1/2 lg:pl-8 mt-10 lg:mt-0">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             About BlockDice
           </h2>
-          <p className="text-lg leading-relaxed text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit
-            amet diam et nulla fermentum varius quis vel turpis. Cras a lectus
-            vel velit dictum pretium quis in tortor. Nam convallis magna ut
-            luctus ullamcorper. Nunc congue, elit a tristique pulvinar, ante dui
-            fringilla quam, ac suscipit elit odio eu eros.
+          <p className="text-lg leading-relaxed">
+            BlockDice is an on-chain turn-based game. It is a decentralized
+            version of popular diced-table Monopoly game. The game is played
+            between two and ten players, each of which has a wallet.
           </p>
+          <button className="underline">Learn More</button>
         </div>
       </div>
     </section>

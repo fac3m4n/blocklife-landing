@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Team from "@/components/Team";
+import TechStack from "@/components/TechStack";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
+        <TechStack />
         <Team />
       </main>
     </>

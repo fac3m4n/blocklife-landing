@@ -10,13 +10,13 @@ const Hero = () => {
           Community-driven virtual universe.
         </h1>
         <div className="text-lg mb-8">
-          <p>Welcome to Block Life, and its unique gaming ecosystem!</p>
+          <p>Welcome to BlockLife, and its unique gaming ecosystem!</p>
           <p>
             BlockLife is a fully on-chain city game where players can enjoy
             different types of games.
           </p>
         </div>
-        <button className="bg-purp text-white font-bold py-2 px-4 rounded">
+        <button className="bg-funcia text-white font-bold py-2 px-4 rounded">
           Enter to BlockLife
         </button>
       </div>
