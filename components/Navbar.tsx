@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/img/block_logo.png";
+import logo from "../public/img/logoblack.png";
 
 const Navbar = () => {
   return (
