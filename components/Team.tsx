@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <section className="py-10">
+    <section className="py-10" id="team">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">
           Meet Our Team
@@ -60,7 +60,7 @@ const Team = () => {
               <div className="py-4 px-6 bg-white">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Kerim</h3>
                 <p className="text-gray-600">
-                  Full-stack Dev and Gamer since 6. 2x Founder and Winner of
+                  Full-stack Dev, Gamer and Hacker. 2x Founder and Winner of
                   Accelerator programs and Web3 graduate from Alchemy
                 </p>
               </div>

@@ -3,10 +3,11 @@ import React from "react";
 import blockDice from "../public/img/dice_game.png";
 import { GiRollingDices } from "react-icons/gi";
 import { TbArrowUpRight } from "react-icons/tb";
+import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="py-10">
+    <section className="py-10" id="about">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-center">
         <div className="lg:w-1/2">
           <Image
@@ -27,10 +28,21 @@ const About = () => {
             version of popular diced-table Monopoly game. The game is played
             between two and ten players, each of which has a wallet.
           </p>
-          <button className="mt-6 flex items-center hover:text-funcia">
-            <p className="text-2xl">Learn More</p>
-            <TbArrowUpRight size={32} />
-          </button>
+          <div className="flex items-center space-x-3">
+            <Link
+              href={"https://github.com/salty-node/contracts"}
+              className="mt-6 flex items-center hover:text-funcia"
+            >
+              <p className="text-xl">Learn More</p>
+              <TbArrowUpRight size={32} />
+            </Link>
+            <Link
+              href={"/"}
+              className="mt-6 flex items-center bg-funcia rounded-lg text-white px-8 py-2"
+            >
+              <p className="text-xl">Play</p>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
