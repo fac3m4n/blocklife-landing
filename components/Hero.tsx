@@ -20,7 +20,8 @@ const Hero = () => {
         </div>
         <div className="flex items-center space-x-3">
           <Link
-            href={"/"}
+            href={"https://play.blocklife.app"}
+            target="_blank"
             className="bg-funcia text-white text-xl py-2 px-4 rounded"
           >
             Enter to BlockLife

@@ -38,7 +38,8 @@ const About = () => {
               <TbArrowUpRight size={32} />
             </Link>
             <Link
-              href={"/"}
+              href={"https://play.blocklife.app"}
+              target="_blank"
               className=" flex items-center bg-funcia rounded-lg text-white px-8 py-2"
             >
               <p className="text-xl">Play</p>
