@@ -20,14 +20,6 @@ const Hero = () => {
         </div>
         <div className="flex items-center space-x-3">
           <Link
-            href={"https://github.com/salty-node/contracts"}
-            className="flex items-center hover:text-funcia"
-            target={"_blank"}
-          >
-            <p className="text-xl">Learn More</p>
-            <TbArrowUpRight size={32} />
-          </Link>
-          <Link
             href={"/"}
             className="bg-funcia text-white text-xl py-2 px-4 rounded"
           >

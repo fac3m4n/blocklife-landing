@@ -28,10 +28,18 @@ const About = () => {
             version of popular diced-table Monopoly game. The game is played
             between two and ten players, each of which has a wallet.
           </p>
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 mt-6">
+            <Link
+              href={"https://github.com/salty-node/contracts"}
+              className="flex items-center hover:text-funcia"
+              target={"_blank"}
+            >
+              <p className="text-xl">Learn More</p>
+              <TbArrowUpRight size={32} />
+            </Link>
             <Link
               href={"/"}
-              className="mt-6 flex items-center bg-funcia rounded-lg text-white px-8 py-2"
+              className=" flex items-center bg-funcia rounded-lg text-white px-8 py-2"
             >
               <p className="text-xl">Play</p>
             </Link>

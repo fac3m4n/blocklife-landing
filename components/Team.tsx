@@ -58,7 +58,7 @@ const Team = () => {
                 height={1000}
               />
               <div className="py-4 px-6 bg-white">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Kerim</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">Kevo</h3>
                 <p className="text-gray-600">
                   Full-stack Dev, Gamer and Hacker. 2x Founder and Winner of
                   Accelerator programs and Web3 graduate from Alchemy
