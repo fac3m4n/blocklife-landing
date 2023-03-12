@@ -22,6 +22,7 @@ const Hero = () => {
           <Link
             href={"https://github.com/salty-node/contracts"}
             className="flex items-center hover:text-funcia"
+            target={"_blank"}
           >
             <p className="text-xl">Learn More</p>
             <TbArrowUpRight size={32} />

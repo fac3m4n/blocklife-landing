@@ -28,6 +28,7 @@ const Navbar = () => {
       <Link
         href={"https://blocklife-drop.vercel.app/"}
         className="px-4 py-2 bg-funcia rounded-lg text-white font-bold"
+        target={"_blank"}
       >
         Mint Avatar
       </Link>
